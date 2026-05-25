@@ -1,0 +1,264 @@
+import java.util.Scanner;
+
+public class UserRegistrationSystem {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        String userName;
+        String password;
+        String cellphoneNumber;
+        
+        //UserName
+        System.out.print("Enter username: ");
+        String userName = scanner.nextLine();
+        
+        if(username.contains("_") && username.length() <= 5 );
+          System.out.print("Username Successfully Captured");
+          
+        }else {
+          System.out.print("Username is not correctly formatted; please ensure that username contains an underscore and is not more than five characters");
+          
+        }
+        //Password 
+        System.out.print("Enter password: ");
+        String password = scanner.nextLine();
+        
+        if (password.length() <=8 & hasUpper & hasDigit & hasSpecial);
+            System.out.printIn("Password Successfully Captured ");
+        }else {
+            System.out.printIn("Password is not correctly formatted; please ensure that the password contains atleast eight characters,a capital letter,a number,and a special character");
+        }
+            
+        
+        //CellPhone Number
+        System.out.print("Enter cellphoneNumber: ");
+        String phoneNumber = scanner.nextLine();
+        
+        if(cellphone.startsWith("+27") & cellphone.lenght() <=13 & cellphone.matches"\\+27\\d{9}");
+        System.out.printIn("Valid SA phone number"); 
+        }else {
+            System.out.printIn("Invalid phone number;cellphone number incorrectly formatted or does not contain international code");
+            
+        
+        
+        //Process registration details
+        String testUsername = "Ler_a";
+        String testPassword = "Vocc4@at";
+        String testCellphoneNumber = "+278156917";
+        
+        //Process registration 
+        public class Login {
+            private String userName;
+            private String password;
+            private String cellphoneNumber;
+            
+        //User authentication status
+        public boolean authenticate(String input username,String inputPassword);
+        }            private String userName;
+
+        //Authentication message
+        if (String inputUsername,String inputPassword) {
+            System.out.printIn("Welcome " + firstName + "," +  password "It is great to see you again");
+        }else {
+            System.out.printIn("Username or password incorrect, please try again");
+            
+            
+            public class Login {
+                public String username;
+                public String password;
+                public String cellphone;
+                
+                //Method to check UserName
+                public boolean checkUsername() {
+                    System.out.printIn("username.contains("_") & username.length() <= 5");
+                    
+                }
+                
+                //Method to check PasswordComplexity
+                public boolean PasswordComplexity() {
+                    System.out.printIn(password.length() >=8
+                    & password.matches(".[A-Z].");
+                    & password.matches(".\\d.");
+                    & password.matches(".[^a-zA-Z0-9]."));
+                    
+                    
+                    //CellPhoneNumber
+                    public boolean checkCellphoneNumber(String cellphone) {
+                        System.out.PrintIn("cellphone.startsWith("+27") & cellphone.length() <=10");
+                        
+                        //registerUser
+                        public String userRegister {
+                        if (!isValidUsername) {
+                             System.out.printIn("Username is incorrectly formatted");
+                        }
+                        if (!isValidPassword) {
+                             System.out.printIn("Password does not meet the complexity requirements");
+                            
+                        }
+                        
+                        //Registration logic
+                          System.out.printIn("Above conditions met,user has been registered successfuly");
+                        
+                        //public boolean loginUser(String username,String password) {
+                            if storedUser = null) {
+                         System.out.printIn("false; user not found");
+                                public String("String username,String password") {
+                                public username = username;
+                                public password = password;
+                                public cellphone = cellphone;
+                                }
+                                public String Password() {
+                                    System.out.printIn("password");
+                                    
+                                    
+                            //public String returnLoginStatus
+                                   if (userLoggedIn) {
+                                    System.out.printIn("Login successfull");
+                                    
+                                   }else {
+                                     System.out.printIn("Login failed ")
+                                     
+        
+                            public class TestWelcomeMessage { 
+                                @Test
+                                public void TestUserName()
+                                {
+                                
+                                User = new User();
+                                String expected = "Ler_a";
+                                String Actual = s.getUserName();
+                                assertEquals(expected,Actual,"Expect name to match of Ler_a");
+                                
+                                
+                            public class TestPassword {
+                                @Test
+                                public void TestPassword()
+                                {
+                                Password = new Password();
+                                String expected = "Vocc4@at";
+                                String Actual = s.getPassword();
+                                assertEquals(expected,Actual,"Expect password to match of Vocc4@at");
+                                
+                                
+                                public class TestCellphoneNumber {
+                                    @Test
+                                    public void TestCellphone();
+                                    String expected = "+278156917";
+                                    String Actual = s.getCellphoneNumber();
+                                    assertEquals(expected,Actual,"Expect cellphone to match of +278156917");
+
+                                
+    }
+                                
+}
+
+PART 2
+
+import  java .util.Scanner;
+// Login check;
+while (loggedIn) {
+    System.out.print("Enter Username: ");
+    String username = scanner.next.Line();
+    System.out.print("Enter password: ");
+    
+    //Simple check 
+    if (username isEmpty() & password isEmpty);
+    System.out.printIn("Login Successful!");
+} else {
+    System.out.printIn("Login failed.Try again.");
+   }
+}
+//Welcome Message
+System.out.printIn("Welcome to Quickchat.");
+boolean running = true;
+while (running) {
+    // System.out.printIn("\n---Menu ---");
+       System.out.printIn("1) Send Messages");
+       System.out.printIn("2) Show sent mesages");
+       Sytem.out.printIn("3) Delete Message by ID");
+       Sytem.out.printIn("4) Choose an option: ");
+       
+       
+       int messagesSent = 0; // Starts at 0
+       // Everytime a message is sent:
+       messagesSent++; // Increment by 1
+       System.out.printIn(messagesSent + "/" + maxMessages + "sent");
+       
+       System.out.print("Enter recipient: ");
+       String recipient = nextLine();
+       
+       while (!isValidRecipient(recipient) ) {
+           System.out.printIn("Invalid number .Use format +[country code][number], max 10 digits for number part.");
+           recipient = nextLine();
+       }
+       
+       // Message length
+       if (content.length() > 250) {
+           System.out.printIn("Please enter a message of less than 250 characters.");
+       } else {
+           Message msg = new Message(username, recipient,content);
+           messages.add(msg);
+           messagesSent++;
+           System.out.printIn("Message sent");
+           System.out.printIn("ID: " + msg.getMessagesId);
+           System.out.printIn(messagesSent + "/" + maxMessages + " sent");
+           Messages msg = new Message(username,recipient,content,messageSent);
+           messages.add(msg);
+           messagesSent++;
+           System.out.printIn("Message sent");
+           System.out.printIn("Hash: " + msg.generatedHash);
+           Sysem.out.printIn("messagesSent + "/" + maxMessages + "sent");
+           
+           if (messagesSent >=maxMessages) {
+               System.out.printIn("Messages limit reached.");
+               
+               
+               public static final String JSON_FILE = "messages.json";
+               {
+                   "messageId": "0428135763";
+                   "sender": "Lerato";
+                   "recipient": "+278156917";
+                   "content": "Okay thanks";
+                   "messageNumber": 0
+               }
+               
+               public static void main(String[]args) {
+                   Message m = new Message"lerato","+278156917","Hello world", 0);
+                   System.out.printIn("ID: "+m.getMessageId();
+                   System.out.printIn("Is Id valid?"+ m.checkMessageID();
+                   Message m = new Message("lerato", "+278156917","Hi" , 0);
+                   if (!m.checkRecipientCell()) {
+                       System.out.printIn("Invalid recipient number");
+                       Message m = new Message("lerato","+278156917","Hi thanks"0);
+                       String hash = m.create.MessageHash();
+                       System.out.printIn(hash); // Output: 04:0:HITTHANKS
+                       
+                       
+                       //Send,Store Or Disregard Message;
+                       Send Message;
+                       Disregard Message [Press 0];
+                       Store Message to send later;
+                       Choose 1
+                       Message successfuly sent
+                       Hash:04:0:HITTHANKS;
+                       ID:0478915636;
+                       
+                       import java.util.Scanner;
+                       public class QuickChat {
+                         private static Scanner sc =  new Scanner(System.in);
+                         private static List<Message> sentMessage = new ArrayList<>();
+                         private static List<Message> storedMessage = new ArrayList<>();
+                         
+                      class QuickChatTest {
+                          private Message testMsg;
+                          private List<Message> sentMessages;
+                          
+                          @BeforeEach
+                          void setUp( {
+                              sentMessage = new ArrayList<>();
+                              testMsg = new Message("lerato","+278156917","Hi Mike, can you join us for dinner tonight?", 0);
+                      }
+                   }
+              
+    }
+}
